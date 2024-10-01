@@ -1,0 +1,89 @@
+/* Grid CSS */
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+.grid-item h3,
+.grid-item h4,
+.grid-item p {
+    text-align: center;
+}
+.grid-item.card-box-container {
+    padding: 30px;
+    margin: 20px;
+}
+
+.widget-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.widget-heading h2 {
+    margin: 0;
+}
+.main-slider-grid-container {
+    overflow: hidden;
+}
+
+/* Card CSS */
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.card-button:hover {
+    background-color: #0b63bc;
+    color: #fff;
+}
+.cards-image-wrapper img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block !important;
+}
+.cards-image-wrapper img.logoImg{
+    max-height: 50px;
+}
+.cards-image-wrapper img.normalImg{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.cards-image-wrapper img {
+    max-height: 300px;
+}
+
+
+.main-slider-grid-container {
+    overflow: hidden;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+}
+.main-slider-grid-container {
+    padding: 30px;
+}
+.swiper-slide {
+    padding: 30px;
+}
+.normal-img-size {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo-img-size {
+    max-width: 100%;
+    height: auto;
+}
